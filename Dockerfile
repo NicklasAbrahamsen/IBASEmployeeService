@@ -11,8 +11,8 @@ USER appuser
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY ["IBASEmployeeService.csproj", "IBASEmployeeService/"]
-RUN dotnet restore "IBASEmployeeService/IBASEmployeeService.csproj"
+COPY ["IBASEmployeeService.csproj", "/"]
+RUN dotnet restore "IBASEmployeeService.csproj"
 COPY . .
 WORKDIR "/src/"
 RUN dotnet build "IBASEmployeeService.csproj" -c Release -o /app/build
