@@ -13,7 +13,6 @@ namespace IBASEmployeeService.Controllers
             _logger = logger;
         }
 
-
         [HttpGet(Name = "GetEmployees")]
         public IEnumerable<Employee> Get()
         {

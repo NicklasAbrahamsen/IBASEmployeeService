@@ -1,0 +1,16 @@
+  "loginServer": "ibascontainerregistry14618.azurecr.io",
+  "name": "ibascontainerregistry14618",
+
+    "passwords": [
+    {
+      "name": "password",
+      "value": "TaKHntpccP9DBCApNrhuOClGgYk1Nd7+"
+    },
+    {
+      "name": "password2",
+      "value": "uO7kAJbhIZgh+CAun8A5zq9jLnBEXBVZ"
+    }
+  ],
+  "username": "ibascontainerregistry14618"
+
+  
